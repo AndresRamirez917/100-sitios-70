@@ -54,7 +54,7 @@ ul {
 
 .title {
     color: #fff;
-    font-size: 4rem;
+    font-size: 5rem;
     font-weight: 500;
     text-align: center;
 }
@@ -70,7 +70,7 @@ ul {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
+padding-bottom: 3rem;
     .navbar {
         .logo {
             width: 50px;
@@ -92,32 +92,56 @@ ul {
         }
     }
     #showcase {
-        h1 {
-            margin-top: 10rem;
-            text-align: center;
-            margin-bottom: 3rem;
+        text-align: center;
+        .showcase-content {
+            h1 {
+                margin-top: 10rem;
+                text-align: center;
+                margin-bottom: 3rem;
+            }
+            .button-1 {
+                width: fit-content;
+                margin: 0 auto;
+                text-align: center;
+                margin: 3rem 0;
+            }
         }
-        a {
-            display: block;
-            margin: 0 auto;
-            text-align: center;
-            margin: 3rem 0;
-        }
+       
     }
 }
 
 //mywork
 #mywork {
+    width: 80%;
+    margin: 0 auto;
+    h2 {
+        text-align: center;
+        font-size: 3rem;
+        margin: 3rem 0;
+    }
     .mywork-row {
         display: flex;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
+        gap: 20px;
     }
 }
 
 //about
 #about {
+    margin: 5rem 0;
     .about-row {
         display: flex;
+        .about-text {
+            background: orangered;
+            padding: 50px;
+            text-align: left;
+             p {
+                margin: 3rem 0;
+             }
+            .button-2 {
+                margin: 3rem 0;
+            }
+        }
     }
 }
 
