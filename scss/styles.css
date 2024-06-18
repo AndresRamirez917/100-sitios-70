@@ -67,6 +67,7 @@ ul {
 .box-1 {
   border: 1px solid orangered;
   padding: 40px;
+  margin-bottom: 10px;
 }
 .box-1 h3 {
   font-size: 1.5rem;
@@ -102,7 +103,7 @@ ul {
   display: flex;
   text-align: center;
 }
-#mainheader .navbar li {
+#mainheader .navbar ul li {
   display: inline-block;
   margin-left: 1rem;
 }
@@ -171,6 +172,9 @@ ul {
 #contact .contact-row {
   display: flex;
   gap: 250px;
+}
+#contact .contact-row h3 {
+  font-weight: 300;
 }
 #contact .contact-row .contact-logo {
   width: 100px;

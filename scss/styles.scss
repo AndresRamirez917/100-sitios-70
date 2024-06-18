@@ -70,6 +70,7 @@ ul {
 .box-1 {
     border: 1px solid orangered;
     padding: 40px;
+    margin-bottom: 10px;
     h3 {
         font-size: 1.5rem;
         font-weight: 500;
@@ -105,11 +106,12 @@ padding-bottom: 3rem;
             margin-top: 2rem;
             display: flex;
             text-align: center;
+            li {
+                display: inline-block;
+                margin-left: 1rem;
+            }
         }
-        li {
-            display: inline-block;
-            margin-left: 1rem;
-        }
+        
         .container {
             display: flex;
             justify-content: space-between;
@@ -181,6 +183,9 @@ padding-bottom: 3rem;
     .contact-row {
         display: flex;
         gap: 250px;
+        h3 {
+            font-weight: 300;
+        }
         .contact-logo {
             width: 100px;
         }
