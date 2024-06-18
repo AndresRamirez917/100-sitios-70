@@ -132,7 +132,7 @@ padding-bottom: 3rem;
     .about-row {
         display: flex;
         .about-text {
-            background: orangered;
+            background: rgba(199, 137, 23, 0.391);
             padding: 50px;
             text-align: left;
              p {
@@ -147,8 +147,20 @@ padding-bottom: 3rem;
 
 //contact
 #contact {
+    width: 75%;
+    margin: 0 auto;
     .contact-row {
         display: flex;
+        gap: 250px;
+        .contact-logo {
+            width: 100px;
+        }
+        .contact-social {
+           img {
+            width: 40px;
+           }
+        }
+      
     }
 }
 
@@ -159,4 +171,5 @@ padding-bottom: 3rem;
 #footer {
     text-align: center;
     padding: 3rem 0;
+    background: rgba(199, 137, 23, 0.391);
 }

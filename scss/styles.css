@@ -124,7 +124,7 @@ ul {
   display: flex;
 }
 #about .about-row .about-text {
-  background: orangered;
+  background: rgba(199, 137, 23, 0.391);
   padding: 50px;
   text-align: left;
 }
@@ -135,11 +135,23 @@ ul {
   margin: 3rem 0;
 }
 
+#contact {
+  width: 75%;
+  margin: 0 auto;
+}
 #contact .contact-row {
   display: flex;
+  gap: 250px;
+}
+#contact .contact-row .contact-logo {
+  width: 100px;
+}
+#contact .contact-row .contact-social img {
+  width: 40px;
 }
 
 #footer {
   text-align: center;
   padding: 3rem 0;
+  background: rgba(199, 137, 23, 0.391);
 }/*# sourceMappingURL=styles.css.map */
