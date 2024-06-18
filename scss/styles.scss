@@ -42,8 +42,16 @@ ul {
     background: orange;
 }
 
+.button-1:hover {
+    background: orangered;
+}
+
 .button-2 {
     border: 1px solid #fff;
+}
+
+.button-2:hover {
+    background: orangered;
 }
 
 .flex {
@@ -61,7 +69,24 @@ ul {
 
 .box-1 {
     border: 1px solid orangered;
-    padding: 30px;
+    padding: 40px;
+    h3 {
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin-bottom: 1rem;
+    }
+    p {
+        line-height: 30px;
+        margin-bottom: 1rem;
+    }
+    a {
+        color: orangered;
+    }
+}
+
+.navbar ul li a:hover,
+.navbar ul li a.active {
+    color: #000;
 }
 
 //mainheader
@@ -135,8 +160,12 @@ padding-bottom: 3rem;
             background: rgba(199, 137, 23, 0.391);
             padding: 50px;
             text-align: left;
+            h3 {
+                font-size: 3rem;
+            }
              p {
                 margin: 3rem 0;
+                line-height: 40px;
              }
             .button-2 {
                 margin: 3rem 0;
@@ -169,6 +198,7 @@ padding-bottom: 3rem;
 
 //footer
 #footer {
+    margin-top: 2rem;
     text-align: center;
     padding: 3rem 0;
     background: rgba(199, 137, 23, 0.391);
